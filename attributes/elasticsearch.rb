@@ -24,10 +24,6 @@ default['elasticsearch']['allocated_memory'] = "#{es_mem}m"
 # (default for rackspace, override for others -- vagrant defaults to localhost)
 default['elasticsearch']['network']['host'] = '_eth1:ipv4_'
 
-# rubocop:disable LineLength
-default['elasticsearch']['discovery']['search_query'] = "tags:elkstack AND chef_environment:#{node.chef_environment} AND elasticsearch_cluster_name:#{node['elasticsearch']['cluster']['name']} AND NOT name:#{node.name}"
-# rubocop:enable LineLength
-
 # by default, won't do multicast
 default['elasticsearch']['discovery']['zen']['ping']['multicast']['enabled'] = false
 
