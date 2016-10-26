@@ -11,7 +11,7 @@ depends 'apt'
 depends 'build-essential'
 depends 'chef-sugar'
 depends 'cron'
-depends 'elasticsearch', '~> 0.3.14' # 1.0 release is a radical change, needs work
+depends 'elasticsearch'
 depends 'firewall', '>= 2.0.1'
 depends 'htpasswd'
 depends 'kibana_lwrp'
