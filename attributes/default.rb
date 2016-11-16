@@ -43,3 +43,5 @@ default['elkstack']['config']['lumberjack_data_bag'] = 'lumberjack'
 
 # should I restart logstash after applying a custom config file?
 default['elkstack']['config']['restart_logstash_service'] = true
+
+node.run_state['elkstack_kibana_password'] = 'asdfjkl123'
