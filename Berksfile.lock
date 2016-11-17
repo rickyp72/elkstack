@@ -27,7 +27,6 @@ GRAPH
   build-essential (2.2.4)
   chef-sugar (3.1.1)
   chef_handler (1.2.0)
-  compat_resource (12.5.14)
   cron (1.7.0)
   curl (2.0.1)
   dmg (2.3.0)
